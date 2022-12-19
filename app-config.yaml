@@ -95,6 +95,12 @@ catalog:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
     - type: file
       target: ../../examples/entities.yaml
+    - type: url
+      target: https://github.com/adityaberojya/backstage-demo-2/blob/master/packages/catalog-model/examples/components/petstore-component.yaml
+    # - type: url
+    #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/components/artist-lookup-component.yaml
+    - type: url
+      target: https://github.com/adityaberojya/backstage-demo-2/blob/master/packages/catalog-model/examples/components/artist-lookup-component.yaml
 
 
 
@@ -113,12 +119,12 @@ catalog:
     # - type: url
     #   target: https://demo-app-2.atlassian.net/jira/software/projects/SEM/boards/1
     #     - allow: [User, Group]
-    ## Uncomment these lines to add more example data
-    # - type: url
-    #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
+    # # Uncomment these lines to add more example data
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
 
-    ## Uncomment these lines to add an example org
-    # - type: url
-    #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
-    #   rules:
-    #     - allow: [User, Group]
+    # # Uncomment these lines to add an example org
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
+      rules:
+        - allow: [User, Group]

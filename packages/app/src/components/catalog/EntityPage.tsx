@@ -75,9 +75,9 @@ import { EntityJiraOverviewCard, isJiraAvailable } from '@roadiehq/backstage-plu
 
 const techdocsContent = (
   <EntityTechdocsContent>
-    <TechDocsAddons>
+    {/* <TechDocsAddons>
       <ReportIssue />
-    </TechDocsAddons>
+    </TechDocsAddons> */}
   </EntityTechdocsContent>
 );
 
